@@ -1,0 +1,105 @@
+/* Define if you don't have vprintf but do have _doprnt.  */
+#cmakedefine HAVE_DOPRNT
+
+/* Define if you have the vprintf function.  */
+#cmakedefine01 HAVE_VPRINTF
+
+#cmakedefine vsnprintf _vsnprintf
+#cmakedefine snprintf _snprintf
+
+/* Define to 1 if you have the `copysign' function. */
+#cmakedefine01 HAVE_COPYSIGN
+#cmakedefine copysign _copysign
+#cmakedefine copysignf _copysign
+#cmakedefine copysignl _copysign
+
+/* Define if you have the ANSI C header files.  */
+#ifndef STDC_HEADERS
+	#cmakedefine01 STDC_HEADERS
+#endif
+
+/* Define to 1 if you have the <assert.h> header file. */
+#cmakedefine01 HAVE_ASSERT_H
+
+/* Define if you have the <stdint.h> header file.  */
+#cmakedefine HAVE_STDINT_H
+
+#cmakedefine HAVE_LIBDL 
+
+/* Define to 1 if you have the `localtime_r' function. */
+#cmakedefine HAVE_LOCALTIME_R
+
+#cmakedefine HAVE_DLFCN_H
+#cmakedefine HAVE_DBMALLOC_H
+#cmakedefine HAVE_LIBDBMALLOC
+#cmakedefine WORDS_BIGENDIAN
+
+#cmakedefine01 HAVE_SEARCH_H
+
+/* Set the native cpu bit order */
+#cmakedefine HOST_FILLORDER FILLORDER_LSB2MSB
+
+/* Define as 0 or 1 according to the floating point format suported by the
+   machine */
+#cmakedefine01 HAVE_IEEEFP
+
+#cmakedefine lfind _lfind
+
+#pragma warning(disable: 4786)
+
+/* Define to 1 if your processor stores words with the most significant byte
+   first (like Motorola and SPARC, unlike Intel and VAX). */
+/* #undef WORDS_BIGENDIAN */
+
+#cmakedefine CPL_MULTIPROC_STUB 1
+
+/* Define to 1 if you have the <errno.h> header file. */
+#cmakedefine HAVE_ERRNO_H 1
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#cmakedefine HAVE_FCNTL_H 1
+
+/* Define to 1 if you have the <float.h> header file. */
+#cmakedefine HAVE_FLOAT_H 1
+
+/* Define to 1 if you have the <limits.h> header file. */
+#cmakedefine HAVE_LIMITS_H 1
+
+/* Define to 1 if you have the <locale.h> header file. */
+#cmakedefine HAVE_LOCALE_H 1
+
+/* Define to 1 if you have the `snprintf' function. */
+#cmakedefine HAVE_SNPRINTF 1
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#cmakedefine HAVE_STDLIB_H 1
+
+/* Define to 1 if you have the <strings.h> header file. */
+#cmakedefine HAVE_STRINGS_H 1
+
+/* Define to 1 if you have the <string.h> header file. */
+#cmakedefine HAVE_STRING_H 1
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#cmakedefine HAVE_SYS_STAT_H 1
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#cmakedefine HAVE_SYS_TYPES_H 1
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#cmakedefine HAVE_UNISTD_H 1
+
+/* Define to 1 if you have the <values.h> header file. */
+#cmakedefine HAVE_VALUES_H 1
+
+/* Define to 1 if you have the `vprintf' function. */
+#cmakedefine HAVE_VPRINTF 1
+
+/* Define to 1 if you have the `vsnprintf' function. */
+#cmakedefine HAVE_VSNPRINTF 1
+
+/* The size of a `int', as computed by sizeof. */
+#cmakedefine SIZEOF_INT 4
+
+/* The size of a `long', as computed by sizeof. */
+#cmakedefine SIZEOF_LONG 4
